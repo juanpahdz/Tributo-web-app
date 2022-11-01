@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Semibold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  // Avenir font
+  @font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirLTStd-Black.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirLTStd-Roman.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  //headings
+
+  @mixin heading-large {
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: normal;
+  }
+  
+  @mixin heading-large-regular {
+    @include heading-large;
+    font-weight: 400;
+  }
+  
+  @mixin heading-large-bold {
+    @include heading-large;
+    font-weight: 500;
+  }
+
+  @mixin heading-medium {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+  }
+  
+  @mixin heading-medium-regular {
+    @include heading-medium;
+    font-weight: 400;
+  }
+  
+  
+  @mixin heading-medium-bold {
+    @include heading-medium;
+    font-weight: 500;
+  }
+  
+  @mixin heading-small {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+  }
+  
+  @mixin heading-small-regular {
+    @include heading-small;
+    font-weight: 400;
+  }
+  
+  @mixin heading-small-bold {
+    @include heading-small;
+    font-weight: 500;
+  }
+
+  //body
+// Body
+@mixin body-medium {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+  }
+  
+  @mixin body-medium-regular {
+    @include body-medium;
+    font-weight: 400;
+  }
+  
+  @mixin body-medium-semibold {
+    @include body-medium;
+    font-weight: 500;
+  }
+  
+  @mixin body-medium-bold {
+    @include body-medium;
+    font-weight: 600;
+  }
+  
+  @mixin body-small {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+  }
+  
+  @mixin body-small-regular {
+    @include body-small;
+    font-weight: 400;
+  }
+  
+  @mixin body-small-semibold {
+    @include body-small;
+    font-weight: 500;
+  }
+  
+  @mixin body-small-bold {
+    @include body-small;
+    font-weight: 600;
+  }

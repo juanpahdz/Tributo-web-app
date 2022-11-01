@@ -1,0 +1,46 @@
+@import './colors';
+@import './fonts';
+
+:root {
+  --color-border: #{$border-grey};
+  --color-bg-darker: #{$secondary-darker-purple};
+  --color-bg-dark: #{$secondary-purple};
+
+  --color-regular: #{$dark-grey};
+  --color-primary: #{$primary-blue};
+  --color-secundary: #{$primary-red};
+
+  --font-family-heading: 'Poppins', Helvetica, Arial, sans-serif;
+  --font-family-base: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family-base);
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font-family: var(--font-family-heading);
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
