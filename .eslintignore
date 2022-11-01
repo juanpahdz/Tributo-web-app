@@ -1,0 +1,15 @@
+node_modules
+coverage
+.next
+
+.prettierrc.js
+.eslintrc.js
+*.config.js
+
+# we have a different eslint configuration for cypress/ folder
+cypress
+
+public/mockServiceWorker.js
+pages/_error.js
+
+.idea
